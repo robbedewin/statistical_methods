@@ -1,0 +1,16 @@
+Assignment Content
+The exercise is open book, you can use additional information sources (but not your laptop or other hardware). 
+Any form of communication is forbidden and communication by the PCs is monitored; 
+this includes pages such as Google docs that facilitate discussions: any violation will lead to immediate exclusion from the exam. 
+You will have an additional two hours for the practical part (total limit three hours). 
+Prepare a file with your answers: explain and motivate your answers and provide your code. 
+When you have finished, upload the file as assignment to Toledo, and signal the examinator to confirm your submission. 
+The data file can be found attached to the Toledo assignment.
+
+
+
+The dataset contains the expression levels of 71 proteins measured in the cerebral cortex of 8 classes of control and Down syndrome mice exposed to context fear conditioning,
+ a task used to assess associative learning. 
+ The eight classes of mice are described based on genotype (control or trisomic), 
+ behavior (stimulated to learn (context-shock) or not (shock-context)) and treatment (saline or drug memantine). 
+ The original experiment aimed to test the effect of the drug memantine in recovering the ability to learn in trisomic mice.
