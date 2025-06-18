@@ -34,8 +34,9 @@ setwd("C:\\Users\\u0065129\\OneDrive\\Equizo\\Courses\\KULeuven\\Bioinformatics\
 
 titanic.missing<-read.table("http://lib.stat.cmu.edu/S/Harrell/data/ascii/titanic.txt",sep=',', header=TRUE) 
 titanic.missing<-subset(titanic.missing,select=c('survived','pclass','sex','age'))
-titanic.missing$sex<-as.numeric(titanic.missing$sex)-1
-
+titanic.missing <- titanic_missing
+titanic.missing$sex<-as.factor(titanic.missing$sex)
+titanic.missing$survived <- as.factor(titanic.missing$survived)
 ## Making some sex missing
 
 set.seed(4321)
